@@ -1,0 +1,102 @@
+.contact {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.contact #title {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+.contact #title hr {
+    width: 100px;
+    margin-top: 1px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+form {
+    margin-top: -10px;
+}
+
+form table {
+    justify-content: center;
+    margin: auto;
+}
+
+form table tr td {
+    display: flex;
+    flex-direction: column;
+    margin: 5px 0;
+}
+
+form table tr td input,
+textarea {
+    border: none;
+    outline: none;
+    background: none;
+    border-bottom: 2px solid #00b7ff;
+}
+
+form table tr td h3 i {
+    margin-right: 5px;
+}
+
+form table tr td h3 {
+    font-family: 'small', sans-serif;
+    font-size: 15px;
+}
+
+form .button {
+    display: flex;
+    flex-direction: row;
+    padding: 0 0 15px 0;
+}
+
+form .button td input {
+    border: none;
+    box-shadow: 0 1px 2px black;
+    border-bottom-left-radius: 8px;
+    border-top-right-radius: 8px;
+    padding: 4px;
+    transition: 0.8s;
+    cursor: pointer;
+}
+
+form .button .send input {
+    background-image: radial-gradient(circle farthest-corner at top left, #00ff4d, #44fffb);
+}
+
+form .button .send:hover input {
+    background-image: radial-gradient(circle farthest-corner at 3px 10px, #00ff00, #00ff80);
+}
+
+form .button .reset input {
+    background-image: radial-gradient(circle farthest-corner at top left, #ff8a02, #e2ff01);
+    margin-left: 10px;
+}
+
+form .button .reset:hover input {
+    background-image: radial-gradient(circle farthest-corner at top left, #ff442c, #ffd635);
+}
+
+#dropdown {
+    border: 2px solid #44fffb;
+    background: none;
+}
+
+#row {
+    display: flex;
+    flex-direction: row;
+}
+
+#bg-none {
+    background: none;
+    border: none;
+}

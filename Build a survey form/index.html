@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="contact">
+        <h1 id="title">Contact
+            <hr color="#00b7ff">
+        </h1>
+        <div id="form">
+            <form action="" name="verdi-contact-form" id="survey-form">
+                <table>
+
+                    <tr>
+                        <td>
+                            <h3>Name
+                            </h3>
+                        </td>
+                        <td><input id="name-label" type="text" placeholder="Enter Your Name" name="nama" required></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3>E-mail
+                            </h3>
+                        </td>
+                        <td><input id="email-label" type="email" placeholder="Enter Your E-mail Name" name="email" required></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3>Number
+                            </h3>
+                        </td>
+                        <td><input id="number-label" min="11" max="14" type="number" placeholder="Enter Your Phone Number" name="number" required></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3>chose your age</h3>
+                            <select name="" id="dropdown">
+                            <option value="10 -15">10 - 15</option>
+                            <option value="10 -15">16 - 20</option>
+                            <option value="10 -15">21 - 25</option>
+                            <option value="10 -15">>26</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td id="row">
+                            <input id="bg-none" type="radio" name="man">man
+                            <input id="bg-none" type="radio" name="woman">woman
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3>Message
+                            </h3>
+                        </td>
+                        <td><textarea name="pesan" cols="50" rows="1" placeholder="Enter Message"></textarea></td>
+                    </tr>
+                    <tr class="button">
+                        <td class="send"> <input type="submit" value="Send"></td>
+                        <td class="reset"> <input type="reset" value="Reset"></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+</body>
+
+</html>
